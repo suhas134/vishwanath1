@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Resume</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        nav { 
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #667eea;
+            transform: translateY(-2px);
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 30px auto; 
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        h1 { 
+            color: #667eea; 
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 3px solid #667eea; 
+            padding-bottom: 10px; 
+            margin: 30px 0 20px 0;
+        }
+        h3 { 
+            color: #764ba2; 
+            margin: 15px 0 5px 0;
+        }
+        .section { 
+            margin: 25px 0; 
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        ul { 
+            margin-left: 20px; 
+        }
+        li { 
+            margin: 10px 0; 
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .skill-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Biodata</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Vishwanath - Professional Resume</h1>
+        
+        <div class="contact-info">
+            <div>
+                <h3>Email</h3>
+                <p>vishwanath@email.com</p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p>6366168112</p>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <p>Mudhol, Karnataka, India</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Experienced software developer with 5 years of experience in web development, specializing in creating responsive and user-friendly applications using modern technologies.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University of Belagum (2023-2027)</p>
+            <p>CGPA: 7.5</p>
+        </div>
+        
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skill-container">
+                <div class="skill">HTML5 & CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Python</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - Professional Proficiency</li>
+                <li>Kannada - Native Proficiency</li>
+                <li>Hindi - Basic Proficiency</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Professional Resume. All rights reserved.</p>
+    </footer>
+</body>
+</html>

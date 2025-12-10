@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Biodata</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        nav { 
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px;
+            text-align: center;
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 15px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #667eea;
+            transform: translateY(-2px);
+        }
+        .container { 
+            max-width: 1000px; 
+            margin: 30px auto; 
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        h1 { 
+            color: #667eea; 
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 { 
+            color: #667eea; 
+            border-bottom: 3px solid #667eea; 
+            padding-bottom: 10px; 
+            margin: 30px 0 20px 0;
+        }
+        h3 { 
+            color: #764ba2; 
+            margin: 15px 0 5px 0;
+        }
+        .section { 
+            margin: 25px 0; 
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 20px 0; 
+        }
+        th, td { 
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            text-align: left; 
+        }
+        th { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .interest-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: calc(50% - 15px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .interest-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Biodata</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Vishwanath - Personal Biodata</h1>
+        
+        <div class="section">
+            <h2>Personal Information</h2>
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td>Vishwanath</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>26-07-2004</td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td>Indian</td>
+                </tr>
+                <tr>
+                    <td>Marital Status</td>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <td>Languages</td>
+                    <td>Kannada, English, Hindi</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Timmapur, Muddapur, Mudhol, Bagalkot, 587122</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>Interests & Hobbies</h2>
+            <div class="interests">
+                <div class="interest-card">
+                    <h3>Photography</h3>
+                    <p>Landscape and street photography enthusiast with over 5 years of experience.</p>
+                </div>
+                <div class="interest-card">
+                    <h3>Hiking</h3>
+                    <p>Love exploring nature trails and mountain paths during weekends.</p>
+                </div>
+                <div class="interest-card">
+                    <h3>Reading</h3>
+                    <p>Prefer technology, science fiction, and personal development books.</p>
+                </div>
+                <div class="interest-card">
+                    <h3>Cooking</h3>
+                    <p>Enjoy experimenting with international cuisines and baking desserts.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate software developer who believes in continuous learning and personal growth. Beyond coding, I enjoy capturing moments through my camera lens and exploring new hiking trails. I'm also an avid reader who loves science fiction and technology books.</p>
+            
+            <h3>Personal Goals</h3>
+            <p>My goal is to become a technical leader in the software industry while maintaining a healthy work-life balance. I also aspire to contribute to open-source projects and mentor aspiring developers.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Personal Biodata. All rights reserved.</p>
+    </footer>
+</body>
+</html>
